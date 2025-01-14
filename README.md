@@ -17,12 +17,11 @@ The **ASCADv2 dataset** was used for the experiments, which contains **power tra
 
 ## **File Structure**
 
-- **`AES (Masked & Unmasked) + ML Model.ipynb`**: Implements the main **AES attack** using machine learning to perform **side-channel analysis**.
+- **`DNN AES`**: Implements the main **AES attack** using machine learning to perform **side-channel analysis**.
 - **`Power Trace (ANSSI Masked).ipynb`**: Processes the **masked AES power traces** for attack.
 - **`Power Trace (AT-MEGA Unmasked).ipynb`**: Works with **unmasked AES power traces** to perform SCAs.
 - **`Unmasked.png`**: Shows the power trace for **unmasked AES** encryption.
 - **`Masked.png`**: Displays the power trace for **masked AES** encryption.
-- **`Crytpography Report.pdf`**: The **project report** detailing methodology, experiments, and results.
 - **`How ANSSI Designed and Tested Their Masked AES.pdf`**: Research paper describing the **ANSSI implementation**.
   
 ---
